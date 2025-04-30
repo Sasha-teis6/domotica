@@ -1,3 +1,7 @@
+"Programa 4"
+"Autor: Dementiev Oleksasndr"
+"Data: 30/04/2025"
+
 from microbit import *
 
 led = pin14
