@@ -1,4 +1,4 @@
-"Programa 5"
+"Programa 5: Cosita para ladrones"
 "Autor: Dementiev Oleksasndr"
 "Data: 30/04/2025"
 
