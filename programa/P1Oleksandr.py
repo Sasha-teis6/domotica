@@ -1,4 +1,4 @@
-"Programa 1"
+"Programa 1: Medicion de temperatura"
 "Autor: Dementiev Oleksasndr"
 "Data: 30/04/2025"
 
