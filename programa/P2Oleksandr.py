@@ -1,4 +1,4 @@
-"Programa 2"
+"Programa 2: Control de luz en la casa"
 "Autor: Dementiev Oleksasndr"
 "Data: 30/04/2025"
 
