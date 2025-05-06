@@ -5,13 +5,15 @@ from microbit import *
 
 pin2.set_analog_period(20)
 servo = pin2
-angulo = 0
+angulo_de_puerta = 0
 
 while True:
+    
     if button_b.is_pressed():
-        angulo += 10
-        servo.write_analog(angulo)
-        if angulo >= 90:
-            angulo = 0
-            servo.write_analog(angulo)
+        angulo_de_puerta += 10
+        servo.write_analog(angulo_de_puerta)
+         
+        if angulo_de_puerta >= 90:
+            angulo_de_puerta = 0
+            servo.write_analog(angulo_de_puerta)
 
