@@ -4,15 +4,15 @@
 
 from microbit import *
 
-led = pin14
+led = pin14 # Conectamos Led a pin 14
 
 while True:
-    luz = pin1.read_analog()
-
-    if luz < 700:
-        led.write_digital(1)
+    luz = pin1.read_analog()  # Lee el valor de pin 1 
+   
+    if luz < 700:             # Si valor de luz es menor que 700, enciende LED 
+        led.write_digital(1)  # Enciende el LED
 
     else:
-        led.write_digital(0)
+        led.write_digital(0)  # Apaga el LED
 
     sleep(1000)
