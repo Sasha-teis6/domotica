@@ -1,6 +1,7 @@
-"Programa 3: El timbre"
-"Autor: Dementiev Oleksasndr"
-"Data: 30/04/2025"
+"""Programa 3: Timbre da casa
+Autor: Dementiev Oleksasndr
+Data: 30/04/2025
+"""
 
 from microbit import *
 import music
