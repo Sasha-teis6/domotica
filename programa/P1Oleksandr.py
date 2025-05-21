@@ -1,6 +1,7 @@
-"Programa 1: Medicion de temperatura"
-"Autor: Dementiev Oleksasndr"
-"Data: 30/04/2025"
+"""Programa 1: Medicion de temperatura
+Autor: Dementiev Oleksasndr
+Data: 30/04/2025
+"""
 
 from microbit import *
 import neopixel
