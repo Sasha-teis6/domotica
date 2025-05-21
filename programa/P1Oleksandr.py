@@ -5,7 +5,30 @@
 from microbit import *
 import neopixel
 
+np = neopixel.NeoPixel(pin13, 2)  
+rele = pin16 
 
+np.clear()
+while True:
+    temperatura = temperature()
+
+    if temperatura > 20:
+        np[0] = (0, 255, 0)  
+        np[1] = (0, 255, 0)
+        np.show()  
+        rele.write_digital(1)  
+    else:
+        np[0] = (255, 0, 0)  
+        np[1] = (255, 0, 0) 
+        np.show()  
+        rele.write_digital(0)  
+
+    sleep(1000)
+
+
+
+
+"""
 np = neopixel.NeoPixel(pin13, 1)
 rele = pin16
 
@@ -22,7 +45,9 @@ while True:
 
     elif temperatura > 22 and temperatura <= 24:
         np[0] = (255, 165, 0)  # Laranja
-        np[1] = (255, 165, 0)
+      from microbit import *
+import neopixel
+  np[1] = (255, 165, 0)
         np.show()
         rele.write_digital(0)
 
@@ -48,4 +73,4 @@ while True:
 
     np.show()
     sleep(2000)
-
+"""
