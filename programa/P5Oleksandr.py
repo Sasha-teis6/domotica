@@ -1,6 +1,7 @@
-"Programa 5: Cosita para ladrones"
-"Autor: Dementiev Oleksasndr"
-"Data: 30/04/2025"
+"""Programa 5: Alarma de movemento con sensor PIR
+Autor: Dementiev Oleksasndr
+Data: 30/04/2025
+"""
 
 from microbit import *
 import neopixel
