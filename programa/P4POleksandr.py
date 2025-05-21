@@ -1,10 +1,9 @@
-"Programa 4: Abrir y serar la puerta"
-"Autor: Dementiev Oleksasndr"
-"Data: 30/04/2025"
+"""Programa 4: Control da porta con servo
+Autor: Dementiev Oleksasndr
+Data: 30/04/2025
+"""
+
 from microbit import *
-
-
-
 if button_b.is_pressed():        # Se se preme o botón B
         if porta == 0:               # Se a porta está pechada
             pin2.write_analog(90)    # Abrímosla
